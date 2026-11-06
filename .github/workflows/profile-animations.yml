@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "15 2 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -20,7 +23,12 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      # Generate the snake animation
+      - name: Prepare output folder
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          chmod -R 777 dist
+
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -29,15 +37,18 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Generate the Pac-Man animation
+      - name: Prepare folder for Pac-Man
+        run: |
+          mkdir -p dist
+          chmod -R 777 dist
+
       - name: Generate Pac-Man
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: darshanhulagur12
-          games: 'pacman'
-          hide_month_labels: 'false'
+          games: "pacman"
+          hide_month_labels: "false"
 
-      # Publish both animations together
       - name: Publish animations
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
