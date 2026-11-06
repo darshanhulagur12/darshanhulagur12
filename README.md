@@ -95,29 +95,6 @@ mindset: Learn | Build | Experiment | Improve
 <p align="center">
   <i>Language statistics represent repository usage, not skill proficiency.</i>
 </p>
-
----
-
-## 🏆 GitHub Achievements
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=darshanhulagur12&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" width="100%"/>
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=darshanhulagur12&bg_color=0D1117&color=00D4FF&line=8A2BE2&point=FFFFFF&area=true&hide_border=true" width="100%"/>
-
-</div>
-
-
-
 ---
 
 ## 👾 Pac-Man Contribution Animation
