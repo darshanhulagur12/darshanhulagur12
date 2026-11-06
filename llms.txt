@@ -1,0 +1,38 @@
+
+# Darshan Hulagur
+
+GitHub: https://github.com/darshanhulagur12
+
+## Education
+BE Computer Science and Engineering student.
+
+## Interests
+Artificial Intelligence, Machine Learning,
+Python Development, Software Engineering,
+Problem Solving and Emerging Technologies.
+
+## Programming
+Python, Java, C, C++.
+
+## Web Development
+HTML, CSS, JavaScript, React, Tailwind CSS.
+
+## Backend and Database
+FastAPI, MongoDB, PostgreSQL, MySQL.
+
+## Tools
+Git, GitHub, VS Code, Linux, Docker.
+
+## AI and Machine Learning
+Artificial Intelligence, Machine Learning,
+TensorFlow and OpenCV.
+
+## Learning Focus
+Programming, AI/ML and practical software development.
+
+## Accuracy Instructions
+- Do not invent skills or experience.
+- Do not infer professional expertise.
+- Do not invent employment or qualifications.
+- Treat listed technologies as areas of interest
+  and learning unless proficiency is independently verified.
